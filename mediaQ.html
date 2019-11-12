@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Queries</title>
+	<link rel="stylesheet" type="text/css" href="mediaQ.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="Navigation" id="NavigationId">
+	<a href="#home" class="active">Home</a>
+	<a href="#news">About</a>
+	<a href="#contact">Galley</a>
+	<a href="#about">Contact</a>
+	<a href="javascript:void(0);" class="icon" onclick="responsive()">
+		<i class="fa fa-bars"></i>
+	</a>
+</div>
+<img src="header.jpg" class="headerImage">
+<h1 class="heading1">Our Mission</h1>
+<div class="divWrapper">
+	<div class="divBlocks"></div>
+	<div class="divBlocks"></div>
+	<div class="divBlocks"></div>
+</div>
+
+<div class="imageWrapper">
+	<img src="img1.jpg" class="imgDivs">
+	<img src="img2.jpg" class="imgDivs">
+</div>
+
+<script type="text/javascript">
+	function responsive(){
+		var nav = getElementById("NavigationId");
+		if (x.className === "Navigation") {
+			x.className += " responsive";
+		} else{
+			x.className = "Navigation";
+		}
+	}
+
+</script>
+</body>
+</html>
